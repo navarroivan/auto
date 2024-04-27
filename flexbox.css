@@ -1,0 +1,26 @@
+*{
+    box-sizing:border-box;
+}
+
+.contenedorflex{
+    display:flex;
+    width:400px;
+    flex-direction: row; /*col,column-reverse. row-reverse*/
+background-color: blue;
+padding: 20px;
+border: 2px solid red;
+
+}
+.item {
+    background-color: aquamarine;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid;
+    text-align: center;
+    line-height: 30px;
+    font-size: 23px; 
+    white-space: 50px;
+    align-items: baseline;
+    justify-content: space-around;
+    align-items: center;
+}
